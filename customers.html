@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers Page</title>
+    <link rel="stylesheet" href="css/customers.css">
+</head>
+<body>
+    <h1 class="abc">Our Famous Customers</h1>
+    <div class="row">
+        <div class="column">
+          <img class="celebrities" src="img/aa.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img class="celebrities" src="img/ben kingsley.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img class="celebrities" src="img/Christoph Waltz Photostream.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img class="celebrities" src="img/leo.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        </div>
+      </div>
+      
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img class="celebrities celebrities3" src="img/aa.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img class="celebrities celebrities3" src="img/ben kingsley.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img class="celebrities celebrities3" src="img/Christoph Waltz Photostream.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img class="celebrities celebrities3" src="img/leo.png" style="width:100%">
+          </div>
+      
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          <div class="column">
+            <img  class="demo celebrities celebrities2" src="img/aa.png" onclick="currentSlide(1)" alt="John Malkovich">
+          </div>
+      
+          <div class="column">
+            <img  class="demo celebrities celebrities2" src="img/ben kingsley.png" onclick="currentSlide(2)" alt="Ben Kinsley">
+          </div>
+      
+          <div class="column">
+            <img  class="demo celebrities celebrities2" src="img/Christoph Waltz Photostream.png" onclick="currentSlide(3)" alt="Christoph Waltz">
+          </div>
+      
+          <div class="column">
+            <img  class="demo celebrities celebrities2" src="img/leo.png" onclick="currentSlide(4)" alt="Leonardo DiCaprio">
+          </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+        <div class="row1">
+        <a href="#"><i class="fa fa-facebook"><img class="social" src="img/free-icon-facebook-4494475.png" alt=""></i></a>
+        <a href="#"><i class="fa fa-instagram"><img class="social" src="img/free-icon-instagram-4494488.png" alt=""></i></a>
+        <a href="#"><i class="fa fa-youtube"><img class="social" src="img/free-icon-youtube-4494485.png" alt=""></i></a>
+        <a href="#"><i class="fa fa-twitter"><img class="social" src="img/free-icon-twitter-4494477.png" alt=""></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="ContactUs.html">Contact us</a></li>
+        <li><a href="OurServices.html">Our Services</a></li>
+        <li><a href="customers.html">Our Customers</a></li>
+        <li><a href="aboutUS.html">Our Team</a></li>
+        <li><a href="#">Career</a></li>
+        </ul>
+        </div>
+        
+        <div class="row1">
+        SGaming Copyright © 2023 SGaming - All rights reserved || Designed By: Azimkhon 
+        </div>
+        </div>
+        </footer>
+    <script src="js/script2.js"></script>
+
+</body>
+</html>

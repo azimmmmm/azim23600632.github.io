@@ -1,0 +1,211 @@
+body{
+    background-color: #302f2f;
+}
+.row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    margin: 15px;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #302f2f;
+  }
+  
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    height: 90%;
+    max-width: 1200px;
+  }
+  
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: #302f2f;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .celebrities{
+    height: 550px;
+    width: 412px;
+  }
+  .celebrities2{
+    height: 400px;
+    width: 250px;
+  }
+  .celebrities3{
+    height: 100%;
+  }
+  .abc{
+    text-align: center;
+    color: #CB00FF;
+  }
+
+
+
+  .footer{
+	background:#000;
+	padding:30px 30px;
+	font-family: 'Play', sans-serif;
+	text-align:center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+	
+	.footer .row{
+	width:100%;
+	margin: 1% 0%;
+	padding:0.6% 0%;
+	color:gray;
+	font-size:0.8em;
+	}
+	
+	.footer .row a{
+	text-decoration:none;
+	color:gray;
+	transition:0.5s;
+	}
+	
+	.footer .row a:hover{
+	color:#fff;
+	}
+	
+	.footer .row ul{
+	width:100%;
+	}
+	
+	.footer .row ul li{
+	display:inline-block;
+	margin:0px 30px;
+	}
+	
+	.footer .row a i{
+	font-size:2em;
+	margin:0% 1%;
+	}
+	
+	@media (max-width:720px){
+	.footer{
+	text-align:left;
+	padding:5%;
+	}
+	.footer .row ul li{
+	display:block;
+	margin:10px 0px;
+	text-align:left;
+	}
+	.footer .row a i{
+	margin:0% 3%;
+	}
+	
+	}
+	.fa-facebook{
+		width: 25px;
+		height: 25px;
+	}
+	.social{
+		width: 50px;
+		height: 50px;
+        margin: 15px;
+	}
+    .row1{
+        color: gray;
+        font-size: 0.8em;
+
+    }
